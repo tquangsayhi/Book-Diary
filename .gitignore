@@ -1,0 +1,25 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and folders
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Qt-specific generated files
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+
+# Debug/Release folders
+debug/
+release/
